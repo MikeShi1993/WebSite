@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Nelson Bighetti
+name: Linyuan Shi
 
 # Username (this should match the folder name)
 authors:
@@ -10,20 +10,20 @@ authors:
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Ph.D. Candidate of Computational Material Science
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
-  url: ""
+- name: University of Florida
+  url: "www.ufl.edu"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include non-equilibrium reactive molecular dynamics simulation and first principles computation.
 
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Computational Materials Science
+- Classic and Quantum Molecular Dynamics
+- High Performance Computing
 
 education:
   courses:
