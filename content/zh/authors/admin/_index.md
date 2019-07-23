@@ -10,32 +10,32 @@ authors:
 superuser: true
 
 # Role/position
-role: Ph.D. Candidate of Computational Material Science
+role: 材料科学与工程博士在读
 
 # Organizations/Affiliations
 organizations:
-- name: University of Florida
-  url: "www.ufl.edu"
+- name: 佛罗里达大学
+  url: "http://www.ufl.edu"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include non-equilibrium reactive molecular dynamics simulation and first principles computation.
 
 interests:
-- Computational Materials Science
-- Classic and Quantum Molecular Dynamics
-- High Performance Computing
+- 计算材料学
+- 经典与量子分子动力学模拟
+- 高性能计算
 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: 材料科学与工程博士在读
+    institution: 佛罗里达大学
+    year: 2018至今
+  - course: 材料科学与工程硕士
+    institution: 佛罗里达大学
+    year: 2018
+  - course: 粉体材料科学与工程学士
+    institution: 中南大学
+    year: 2016
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons

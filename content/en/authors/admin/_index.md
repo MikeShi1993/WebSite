@@ -15,7 +15,7 @@ role: Ph.D. Candidate of Computational Material Science
 # Organizations/Affiliations
 organizations:
 - name: University of Florida
-  url: "www.ufl.edu"
+  url: "http://www.ufl.edu"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include non-equilibrium reactive molecular dynamics simulation and first principles computation.
@@ -31,11 +31,11 @@ education:
     institution: University of Florida
     year: 2018-present
   - course: Master in Materials Science
-    institution: Massachusetts Institute of Technology
-    year: University of Florida
+    institution: University of Florida
+    year: 2018
   - course: BSc in Powder Materials Science
-    institution: Massachusetts Institute of Technology
-    year: Central South University
+    institution: Central South University
+    year: 2016
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
