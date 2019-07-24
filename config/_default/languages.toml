@@ -6,6 +6,8 @@
 [en]
   languageCode = "en-us"
   contentDir = "content/en"  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
+   title = "Linyuan Shi"
+
 
 # Uncomment the lines below to configure your website in a second language.
 [zh]
@@ -14,7 +16,4 @@
  title = "石临源"
  [zh.params]
    description = "Site description in Chinese..."
- [[zh.menu.main]]
-   name = "主页"
-   url = "#about"
-   weight = 1
+
