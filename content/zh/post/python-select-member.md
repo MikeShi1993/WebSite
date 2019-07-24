@@ -1,16 +1,22 @@
+---
 title: Python消息统计
-date: 2014-08-07 18:55:25
-categories: Python
-tags: 
-  -  技术
-  -  Python
-description: Python, 是一种面向对象、解释型计算机程序设计语言，Python语法简洁而清晰，具有丰富和强大的类库,码代码效率非常高。这是我用Python编写的统计发言数的小脚本。
+summary: Python, 是一种面向对象、解释型计算机程序设计语言，Python语法简洁而清晰，具有丰富和强大的类库,码代码效率非常高。这是我用Python编写的统计发言数的小脚本。
+date: "2014-08-07T18:55:25Z"
+tags: ["Python", "技术"]
+categories: ["Python"]
+reading_time: true  # Show estimated reading time?
+share: false  # Show social sharing links?
+profile: true  # Show author profile?
+comments: false  # Show comments?
 ---
 这是我统计QQ群成员发言数的Python代码，需要依赖[pandas](http://pandas.pydata.org/)库,下载后解压缩文件，然后cd到目标文件夹，执行以下命令：
+
 ``` bash
 python setup.py install
 ```
+
 然后pandas库就可以使用了，这是我统计发言数的源代码：
+
 ``` python
 from pandas import Series, DataFrame
 import pandas as pd
@@ -38,4 +44,5 @@ if __name__ == "__main__":
     for i in a.index:
         print(i,a.ix[i])
 ```
+
 只要修改一下file_dir将目录指向导出的QQ消息记录就可以运行了。

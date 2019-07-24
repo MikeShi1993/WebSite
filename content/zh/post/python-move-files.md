@@ -1,17 +1,23 @@
+---
 title: Python os模块简介
-date: 2014-08-08 18:31:58
-categories: Python
-tags:
-  -  技术
-  -  Python
-description: Python的os模块包含了很多很有用的关于操作文件和目录的函数。如果你希望你的程序能够与平台无关的话，这个模块是尤为重要的。即它允许一个程序在编写后不需要任何改动，也不会发生任何问题，就可以在Linux和Windows下运行，这也是他的强大之处。
+summary: Python的os模块包含了很多很有用的关于操作文件和目录的函数。如果你希望你的程序能够与平台无关的话，这个模块是尤为重要的。即它允许一个程序在编写后不需要任何改动，也不会发生任何问题，就可以在Linux和Windows下运行，这也是他的强大之处。
+date: "2014-08-08T18:31:58Z"
+tags: ["Python", "技术"]
+categories: ["Python"]
+reading_time: true  # Show estimated reading time?
+share: false  # Show social sharing links?
+profile: true  # Show author profile?
+comments: false  # Show comments?
 ---
 
-## 概括
+{{%toc%}}
+
+# 概括
 
 Python的os模块包含了很多很有用的关于操作文件和目录的函数。如果你希望你的程序能够与平台无关的话，这个模块是尤为重要的。即它允许一个程序在编写后不需要任何改动，也不会发生任何问题，就可以在Linux和Windows下运行，这也是他的强大之处。
 
-### 常用函数
+## 常用函数
+
 1.获得当前路径：os.getcwd()
 ``` python
 >>> os.getcwd()
@@ -56,8 +62,10 @@ os.mkdir('E:\\book\\temp')
 ```
 然后就会执行你电脑里默认的视频播放程序打开test.mkv视频播放。很方便吧。
 
-### 示例程序
+## 示例程序
+
 我每回下载的视频文件都放在迅雷文件夹里面看完后每回都要手动进行分门别类的整理觉得很不爽，于是就利用Python花了2个小时编了一个小程序来自动帮我归档视频，下面是源代码：
+
 ``` python
 import os
 import re
@@ -119,4 +127,5 @@ if __name__ == "__main__":
     print(time.time()-a)
     input('按Enter键退出')
 ```
+
 自从用了这个小脚本，帮我节省了好多整理文件的时间，果然是科技改变生活啊。

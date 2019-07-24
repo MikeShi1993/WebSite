@@ -1,18 +1,24 @@
-title: Linux下Python编译安装Scipy
-date: 2015-3-07 21:00:00
-categories: Python
-tags:
-  -  技术
-  -  Python
-  -  Linux
-description: SciPy是一个开源的Python算法库和数学工具包。在小石学长摸索了整整一天后终于在Linux下编译成功SciPy^\_^
 ---
-
+title: Linux下Python编译安装Scipy
+summary: SciPy是一个开源的Python算法库和数学工具包。在小石学长摸索了整整一天后终于在Linux下编译成功SciPy^\_^
+date: "2015-03-07T21:00:00Z"
+tags: ["Python", "技术", "Linux"]
+categories: ["Python"]
+reading_time: true  # Show estimated reading time?
+share: false  # Show social sharing links?
+profile: true  # Show author profile?
+comments: false  # Show comments?
+---
 ## SciPy简介
+
 SciPy是一个开源的Python算法库和数学工具包。但是由于依赖一些fortran库在Linux下很难编译安装，下面便是我经过一天的摸索找到的安装方法，以飨大家。
+
 ## SciPy安装方法
+
 ### 编译BLAS
+
 首先编译并静态链接Fortran库BLAS和LAPACK。
+
 ``` bash
 mkdir -p ~/src/
 cd ~/src/
@@ -36,10 +42,13 @@ ranlib libfblas.a
 rm -rf *.o
 export BLAS=~/src/BLAS/libfblas.a
 ```
+
 根据Linux版本执行g77/gfortran/ifort 5条命令中的一条，下面的LAPACK安装同样需要Fortran编译器并且应与编译BLAS库的编译器相同。
 
 ### 编译LAPACK
+
 以gfortran编译器为例
+
 ``` bash
 mkdir -p ~/src
 cd ~/src/
@@ -130,5 +139,7 @@ LAPACKLIB    = liblapack.a
 TMGLIB       = libtmglib.a
 LAPACKELIB   = liblapacke.a
 ```
+
 ### 安装SciPy Package
+
 执行 pip install scipy命令即可成功安装SciPy。
