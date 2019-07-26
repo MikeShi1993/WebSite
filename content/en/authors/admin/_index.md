@@ -70,4 +70,4 @@ user_groups:
 - Visitors
 ---
 
-Linyuan received his B.S. in Powder Material Science and Engineering from Central South University in Changsha, China in 2016. He then went to University of Florida first as a master student, and later he joined Dr. Phillpot’s research group and began working on computational material science. His research interests involve using molecular dynamics (MD) simulations to investigate the mechanical properties of ZrH2 system and the microstructure and thermomechanical properties of ablative heat shields.
+Linyuan received his B.S. in Powder Material Science and Engineering from Central South University in Changsha, China in 2016. He then went to University of Florida first as a master student, and later he joined Dr. Phillpot’s research group and began working on computational material science. His research interests involve using molecular dynamics (MD) simulations to investigate the mechanical properties of ZrH<sub>2</sub> system and the microstructure and thermomechanical properties of ablative heat shields.
