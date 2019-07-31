@@ -1,14 +1,14 @@
 ---
 title: "ReactionFlowChart"
 date: 2019-07-29T20:26:23-04:00
-draft: true
+draft: false
 diagram: true
 ---
 
 ```mermaid
 graph TD;
 A(Only one kind of products?)
-B(Is the product fiber?)
+B{Is all the product fiber?}
 A-->|yes|B
 C(All reactants are fiber?)
 B-->|yes|C
