@@ -3,7 +3,7 @@
 
 title: "Beancount"
 subtitle: ""
-summary: ""
+summary: "Beancount is a double-entry bookkeeping computer language."
 authors: []
 tags: []
 categories: []
