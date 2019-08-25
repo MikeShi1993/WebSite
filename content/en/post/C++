@@ -1,0 +1,9 @@
+---
+title: "C++"
+date: 2019-08-07T10:50:26-04:00
+draft: true
+---
+
+### the rule of thumb
+
+1. If the class needs a destructor, it almost surely needs a copy constructor and copy-assignment operator as well.
