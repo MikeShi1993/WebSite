@@ -28,6 +28,7 @@ image:
 projects: []
 ---
 Select **Debug** or **Debug and Launch Settings** then add
-``` json
+
+``` bash
 "currentDir": "${ProjectDir}"
 ```
