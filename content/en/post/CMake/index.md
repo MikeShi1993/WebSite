@@ -24,7 +24,7 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
-```bash
+``` CMake
 cmake_minimum_required(VERSION 3.14)
 project(MPI_Learn)
 

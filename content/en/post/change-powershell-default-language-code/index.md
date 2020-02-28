@@ -31,7 +31,7 @@ projects: []
 
 To create a profile for the current user in the current PowerShell host application, use the following command:
 
-``` bash
+``` powershell
 if (!(Test-Path -Path $PROFILE)) {
   New-Item -ItemType File -Path $PROFILE -Force
 }
@@ -39,13 +39,13 @@ if (!(Test-Path -Path $PROFILE)) {
 
 Then `notepad $PROFILE` to modify the profile file. Add the following line:
 
-``` bash
+``` powershell
 chcp 936
 ```
 
 ##### Create your code signing certificate
 
-``` bash
+``` powershell
 New-SelfSignedCertificate -CertStoreLocation cert:\currentuser\my `
 -Subject "CN=Local Code Signing" `
 -KeyAlgorithm RSA `
@@ -60,7 +60,7 @@ New-SelfSignedCertificate -CertStoreLocation cert:\currentuser\my `
 
 From the same Powershell prompt, run:
 
-``` bash
+``` powershell
 certmgr /s my
 ```
 
@@ -74,10 +74,9 @@ Paste into **Trusted Root Certification Authorities** and into **Trusted Publish
 
 From a Powershell prompt, run these two commands:
 
-```bash
+``` powershell
 $cert = @(Get-ChildItem cert:\CurrentUser\My -CodeSigning)[0]
 Set-AuthenticodeSignature $PROFILE $cert
 ```
 
 The above instructions is obtained from Microsoft Documentation About [Signing](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_signing?view=powershell-7) and [Profiles](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_profiles?view=powershell-7) and from [SpiceWorks](https://community.spiceworks.com/how_to/153255-windows-10-signing-a-powershell-script-with-a-self-signed-certificate).
-

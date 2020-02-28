@@ -30,7 +30,7 @@ projects: []
 
 ### Create an undirected boost graph using BGL
 
-```C++
+``` C++
 typedef adjacency_list<boost::vecS, boost::vecS, boost::undirectedS> Graph;
 typedef graph_traits<Graph>::vertex_descriptor Vertex;
 typedef graph_traits<Graph>::vertex_iterator Vertex_iterator;
