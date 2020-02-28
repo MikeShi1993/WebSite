@@ -57,7 +57,7 @@ activity.csv -> activity_YYYYMMDD_Amex_Rose_Gold.csv # Amex Rose Gold credit car
 Identify these documents category and make sure everything is ok.
 
 ```bash
-bean-identify finance.import /home/mikeshi/Beancount/downloads/  #Absolute path to avoid error
+bean-identify finance.import ./downloads/
 ```
 
 #### Step 4:
@@ -73,13 +73,13 @@ Extract data from these documents.
 Dry run this command first to make sure no bug occurs in running.
 
 ``` bash
-bean-extract finance.import /home/mikeshi/Beancount/downloads/
+bean-extract finance.import ./downloads/
 ```
 
 Export them to the tail of the beancount file if everything goes ok.
 
 ```bash
-bean-extract finance.import /home/mikeshi/Beancount/downloads/ >> finance.main.beancount
+bean-extract finance.import ./downloads/ >> finance.main.beancount
 ```
 
 Add balance assertions (find balance statement from bank website) , usually you need to add 4 assertions at the end like below codes.
