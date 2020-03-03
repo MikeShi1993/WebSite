@@ -41,6 +41,7 @@ sudo apt-get install zsh
 3. Make it your default shell: `chsh -s $(which zsh)`
 
 4. Install [Oh My Zsh](http://ohmyz.sh/) via wget
+
 ```bash
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
