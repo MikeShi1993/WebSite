@@ -2,11 +2,11 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Boost Graph Library(BGL)"
-subtitle: "Graphs are mathematical abstractions that are useful for solving many types of problems in computer science."
-summary: ""
+subtitle: ""
+summary: "Graphs are mathematical abstractions that are useful for solving many types of problems in computer science."
 authors: []
-tags: []
-categories: []
+tags: ["C++", "Boost"]
+categories: ["C++", "Coding"]
 date: 2019-10-22T09:55:32-04:00
 lastmod: 2019-10-22T09:55:32-04:00
 featured: false
@@ -27,7 +27,6 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
-
 ### Create an undirected boost graph using BGL
 
 ``` C++

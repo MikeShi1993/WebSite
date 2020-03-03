@@ -3,10 +3,10 @@
 
 title: "Change Powershell default language code"
 subtitle: ""
-summary: ""
+summary: "Avoid incorrect display of Chinese characters"
 authors: []
-tags: []
-categories: []
+tags: ["Powershell"]
+categories: ["Coding"]
 date: 2020-02-27T22:16:10-05:00
 lastmod: 2020-02-27T22:16:10-05:00
 featured: false

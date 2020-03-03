@@ -1,10 +1,10 @@
 ---
 title: "CMAKE"
 subtitle: ""
-summary: "CMake is tool for automatically compiling C++ programs."
+summary: "CMake is tool for automatically compiling C++ programs"
 authors: []
-tags: []
-categories: []
+tags: ["C++", "CMake"]
+categories: ["C++", "Coding"]
 date: 2019-09-23T21:32:18-04:00
 featured: false
 draft: false
