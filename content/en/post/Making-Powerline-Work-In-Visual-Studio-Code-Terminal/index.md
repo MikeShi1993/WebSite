@@ -5,8 +5,8 @@ title: "Making Powerline Work in Visual Studio Code Terminal"
 subtitle: ""
 summary: ""
 authors: []
-tags: []
-categories: []
+tags: ['Powerline']
+categories: ['Visual Studio']
 date: 2020-02-23T16:55:32-05:00
 lastmod: 2020-02-23T16:55:32-05:00
 featured: false

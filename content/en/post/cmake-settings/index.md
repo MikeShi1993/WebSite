@@ -5,8 +5,8 @@ title: "How to change working directory in Visual Studio"
 subtitle: ""
 summary: ""
 authors: []
-tags: []
-categories: []
+tags: ['CMake', 'Visual Studio']
+categories: ['CMake', 'C++']
 date: 2020-01-15T17:21:54-05:00
 lastmod: 2020-01-15T17:21:54-05:00
 featured: false

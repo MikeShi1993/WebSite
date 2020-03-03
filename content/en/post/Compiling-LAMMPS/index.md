@@ -5,8 +5,8 @@ title: "Compiling LAMMPS"
 subtitle: ""
 summary: ""
 authors: []
-tags: []
-categories: []
+tags: ['LAMMPS']
+categories: ['LAMMPS']
 date: 2020-02-23T17:04:40-05:00
 lastmod: 2020-02-23T17:04:40-05:00
 featured: false

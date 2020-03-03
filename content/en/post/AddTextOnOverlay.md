@@ -2,6 +2,8 @@
 title: "Add Text On Ovitos Overlay"
 date: 2019-08-25T18:39:00-04:00
 draft: false
+tags: ['Modifier', 'Ovitos', 'Python']
+categories: ['Ovito']
 ---
 <!-- ```Python
 # This user-defined function is called by OVITO to let it draw arbitrary graphics on top of the viewport.

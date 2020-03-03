@@ -31,21 +31,22 @@ Here is the terminal codes for changing the color of the text in terminal. This 
 
 ``` C++
 //the following are UBUNTU/LINUX, and MacOS ONLY terminal color codes.
-#define RESET   "\033[0m"
-#define BLACK   "\033[30m"      /* Black */
-#define RED     "\033[31m"      /* Red */
-#define GREEN   "\033[32m"      /* Green */
-#define YELLOW  "\033[33m"      /* Yellow */
-#define BLUE    "\033[34m"      /* Blue */
-#define MAGENTA "\033[35m"      /* Magenta */
-#define CYAN    "\033[36m"      /* Cyan */
-#define WHITE   "\033[37m"      /* White */
-#define BOLDBLACK   "\033[1m\033[30m"      /* Bold Black */
-#define BOLDRED     "\033[1m\033[31m"      /* Bold Red */
-#define BOLDGREEN   "\033[1m\033[32m"      /* Bold Green */
-#define BOLDYELLOW  "\033[1m\033[33m"      /* Bold Yellow */
-#define BOLDBLUE    "\033[1m\033[34m"      /* Bold Blue */
-#define BOLDMAGENTA "\033[1m\033[35m"      /* Bold Magenta */
-#define BOLDCYAN    "\033[1m\033[36m"      /* Bold Cyan */
-#define BOLDWHITE   "\033[1m\033[37m"      /* Bold White */
+#pragma once
+constexpr char* RESET = "\033[0m";
+constexpr char* BLACK = "\033[30m";                 /* Black */
+constexpr char* RED = "\033[31m";                   /* Red */
+constexpr char* GREEN = "\033[32m";                 /* Green */
+constexpr char* YELLOW = "\033[33m";                /* Yellow */
+constexpr char* BLUE = "\033[34m";                  /* Blue */
+constexpr char* MAGENTA = "\033[35m";               /* Magenta */
+constexpr char* CYAN = "\033[36m";                  /* Cyan */
+constexpr char* WHITE = "\033[37m";                 /* White */
+constexpr char* BOLDBLACK = "\033[1m\033[30m";      /* Bold Black */
+constexpr char* BOLDRED = "\033[1m\033[31m";        /* Bold Red */
+constexpr char* BOLDGREEN = "\033[1m\033[32m";      /* Bold Green */
+constexpr char* BOLDYELLOW = "\033[1m\033[33m";     /* Bold Yellow */
+constexpr char* BOLDBLUE = "\033[1m\033[34m";       /* Bold Blue */
+constexpr char* BOLDMAGENTA = "\033[1m\033[35m";    /* Bold Magenta */
+constexpr char* BOLDCYAN = "\033[1m\033[36m";       /* Bold Cyan */
+constexpr char* BOLDWHITE = "\033[1m\033[37m";      /* Bold White */
 ```

@@ -5,8 +5,8 @@ title: "Beancount"
 subtitle: ""
 summary: "Beancount is a double-entry bookkeeping computer language."
 authors: []
-tags: []
-categories: []
+tags: ['Beancount']
+categories: ['finance']
 date: 2019-07-31T10:18:09-04:00
 lastmod: 2019-07-31T10:18:09-04:00
 featured: false

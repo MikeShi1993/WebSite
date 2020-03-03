@@ -3,10 +3,10 @@
 
 title: "C++ and Python exchange Numpy data via Pybind11"
 subtitle: ""
-summary: ""
+summary: "Pybind11 is a lightweight header-only library that exposes C++ types in Python and vice versa, mainly to create Python bindings of existing C++ code. We could use it to expose our CPP function to Python"
 authors: []
-tags: []
-categories: []
+tags: ['C++', 'Pybind11']
+categories: ['C++']
 date: 2019-10-26T23:01:10-04:00
 lastmod: 2019-10-26T23:01:10-04:00
 featured: false

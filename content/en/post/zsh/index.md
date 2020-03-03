@@ -3,10 +3,10 @@
 
 title: "Installation of zsh and beautify"
 subtitle: ""
-summary: ""
+summary: "Zsh is a Unix shell, which has been developed since 1990."
 authors: []
-tags: []
-categories: []
+tags: ['Zsh']
+categories: ['Linux']
 date: 2020-01-19T19:50:06-05:00
 lastmod: 2020-01-19T19:50:06-05:00
 featured: false
@@ -28,7 +28,7 @@ image:
 projects: []
 ---
 
-The [Zsh](https://en.wikipedia.org/wiki/Z_shell) is a [Unix shell](https://en.wikipedia.org/wiki/Unix_shell), which has been developed since 1990. Especially by the extensions you can install via the [Oh My Zsh](http://ohmyz.sh/) framework, the work in the termial is greatly simplified.
+[Zsh](https://en.wikipedia.org/wiki/Z_shell) is a [Unix shell](https://en.wikipedia.org/wiki/Unix_shell), which has been developed since 1990. Especially by the extensions you can install via the [Oh My Zsh](http://ohmyz.sh/) framework, the work in the termial is greatly simplified.
 
 1. Install zsh by running
 
