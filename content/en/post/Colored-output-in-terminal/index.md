@@ -27,6 +27,11 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+
+> #### The latest update
+>
+> See the new cross-platform version code on [GitHub](https://github.com/MikeShi1993/SFT#colorizing-text-in-console)
+
 Here is the terminal codes for changing the color of the text in terminal. This C++ practice is from a [Stack overflow answer](https://stackoverflow.com/questions/9158150/colored-output-in-c/9158263).
 
 ``` C++
