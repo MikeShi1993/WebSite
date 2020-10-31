@@ -54,13 +54,22 @@ activity.csv -> activity_YYYYMMDD_Amex_Rose_Gold.csv # Amex Rose Gold credit car
 
 #### Step 3:
 
+Change rows about Chase payment in the checking statement:
+
+```bash
+CHASE CREDIT CRD DES -> CHASE CREDIT CRD 7218 DES # Freedom credit card
+CHASE CREDIT CRD DES -> CHASE CREDIT CRD 1173 DES # Sapphire credit card
+``` 
+
+#### Step 4:
+
 Identify these documents category and make sure everything is ok.
 
 ```bash
 bean-identify finance.import ./downloads/
 ```
 
-#### Step 4:
+#### Step 5:
 
 Back up the original beancount file
 
@@ -93,7 +102,7 @@ Add balance assertions (find balance statement from bank website) , usually you 
 2020-03-31 balance Assets:US:Stock:Robinhood:Cash                        523.34    USD
 ```
 
-#### Step 5:
+#### Step 6:
 
 Add stock price in finance.stock.price.beancount
 
@@ -119,7 +128,7 @@ If everything goes fine, remove backup beancount file.
 rm finance.main.beancount.backup
 ```
 
-#### Step 6:
+#### Step 7:
 Move these documents files into documents folder.
 
 Dry run the command below and check if the destinations are as expected.
@@ -134,7 +143,7 @@ Then move them into the folder.
 bean-file finance.import ./downloads/ -o ./documents/
 ```
 
-#### Step 7:
+#### Step 8:
 Push these changes via VScode and PowerShell.
 
 ```bash
