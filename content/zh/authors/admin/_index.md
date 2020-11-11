@@ -48,7 +48,7 @@ social:
 
 - icon: cv
   icon_pack: ai
-  link: files/Resume_Linyuan_Shi.pdf
+  link: files/Resume_Chinese_.pdf
 
 # - icon: twitter
 #   icon_pack: fab
