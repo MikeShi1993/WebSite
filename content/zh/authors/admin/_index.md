@@ -1,6 +1,6 @@
 ---
 # Display name
-name: 石临源
+title:: 石临源
 
 # Username (this should match the folder name)
 authors:
