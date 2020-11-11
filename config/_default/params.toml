@@ -211,8 +211,7 @@ link_authors = true
 ## Marketing
 ############################
 [marketing]
-  google_analytics = ""
-  google_tag_manager = ""
+  microsoft_clarity = "41zor7jk5z"
 
 # PLACE THESE PARAMS IN THE MAIN CONFIG SECTION (NOT UNDER ANY [SUBSECTION])
    
