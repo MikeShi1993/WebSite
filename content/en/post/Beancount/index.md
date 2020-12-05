@@ -50,6 +50,7 @@ Move these documents in to downloads folder under Beancount folder. Then rename 
 ```bash
 ofx.csv -> ofx_YYYYMMDD_Amex_Rose_Gold.csv  # Amex Rose Gold credit card rename rule
 activity.csv -> activity_YYYYMMDD_Amex_Rose_Gold.csv # Amex Rose Gold credit card rename rule
+activity.csv -> activity_YYYYMMDD_Amex_Everyday.csv # Amex Everyday credit card rename rule
 ```
 
 #### Step 3:
@@ -59,6 +60,8 @@ Change rows about Chase payment in the checking statement:
 ```bash
 CHASE CREDIT CRD DES -> CHASE CREDIT CRD 7218 DES # Freedom credit card
 CHASE CREDIT CRD DES -> CHASE CREDIT CRD 1173 DES # Sapphire credit card
+AMERICAN EXPRESS DES:ACH PMT -> AMERICAN EXPRESS 91004 DES:ACH PMT # Amex Rose Gold credit card
+AMERICAN EXPRESS DES:ACH PMT -> AMERICAN EXPRESS 91006 DES:ACH PMT # Amex Everyday credit card
 ``` 
 
 #### Step 4:
