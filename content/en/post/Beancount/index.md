@@ -102,7 +102,7 @@ Add balance assertions (find balance statement from bank website) , usually you 
 2020-03-23 balance Liabilities:US:CreditCard:Chase:SapphirePreferred      -1.99    USD
 2020-03-23 balance Liabilities:US:CreditCard:BofA:CashRewards            -160.93   USD
 2020-03-23 balance Liabilities:US:CreditCard:BofA:TravelRewards            0.00    USD
-2020-03-21 balance Liabilities:US:CreditCard:AmericanExpress:AmexGold      0.00    USD
+2020-03-21 balance Liabilities:US:CreditCard:AmericanExpress:Everyday      0.00    USD
 2020-03-31 balance Assets:US:Stock:Robinhood:Cash                        523.34    USD
 ```
 
