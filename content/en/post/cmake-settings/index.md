@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "How to change working directory in Visual Studio"
+title: "CMake and Visual Studio Tips"
 subtitle: ""
 summary: ""
 authors: []
@@ -27,8 +27,23 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+
+### How to change working directory in Visual Studio
+
 Select **Debug** or **Debug and Launch Settings** then add
 
 ``` bash
 "currentDir": "${ProjectDir}"
 ```
+
+### How to enable CMake multi-config in Visual Studio Code
+
+CMake supports two types of generators: single-configurations (makefiles, nmake) and multi-configurations (IDEs). By adding the following lines to ```settings.json```. This should then update your ```CMAKE_BUILD_TYPE``` accordingly and set it as -D CLI option.
+
+``` bash
+"cmake.configureSettings": {
+   "CMAKE_BUILD_TYPE": "${buildType}"
+}
+```
+
+see this [link](https://github.com/microsoft/vscode-cmake-tools/issues/1298#issuecomment-641959584) for reference.
