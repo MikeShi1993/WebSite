@@ -48,6 +48,12 @@ CMake supports two types of generators: single-configurations (makefiles, nmake)
 
 See this [link](https://github.com/microsoft/vscode-cmake-tools/issues/1298#issuecomment-641959584) for reference.
 
+Another way is:
+
+`Settings: Cmake: Set Build Type On Multi Config`
+
+- [x] Set CMAKE_BUILD_TYPE also on multi-config generators
+
 ### How to embed MSVC runtime in the executable file
 
 ``` bash
