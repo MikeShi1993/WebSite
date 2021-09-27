@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Ph.D. Candidate of Computational Material Science
+role: Lecturer of Zhengzhou University
 
 # Organizations/Affiliations
 organizations:
@@ -29,7 +29,7 @@ education:
   courses:
   - course: PhD in Materials Science
     institution: University of Florida
-    year: 2018-present
+    year: 2018-2021
   - course: Master in Materials Science
     institution: University of Florida
     year: 2018

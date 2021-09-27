@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: 材料科学与工程博士在读
+role: 郑州大学讲师
 
 # Organizations/Affiliations
 organizations:
@@ -27,9 +27,9 @@ interests:
 
 education:
   courses:
-  - course: 材料科学与工程博士在读
+  - course: 材料科学与工程博士
     institution: 佛罗里达大学
-    year: 2018至今
+    year: 2018-2021
   - course: 材料科学与工程硕士
     institution: 佛罗里达大学
     year: 2018
