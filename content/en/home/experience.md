@@ -18,12 +18,27 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Lecturer"
+  company = "Zhengzhou University"
+  company_url = "http://www.zzu.edu.cn"
+  location = "Zhengzhou"
+  date_start = "2021-08-09"
+  date_end = ""
+  description = """
+  Research interests include:
+  * Radio-frequency induction plasma spheroidization of refractory metal powders
+  * Flow field simulation of radio-frequency induction plasma 
+  * Modeling carbon fiber reinforced composites with complex structures
+  * First-principles calculation of high-entropy ceramics
+  """
+
+[[experience]]
   title = "Research Assistant"
   company = "Dr.Phillpot Research Group"
   company_url = ""
   location = "Florida"
   date_start = "2018-01-01"
-  date_end = ""
+  date_end = "2021-05-18"
   description = """
   Responsibilities include:
   

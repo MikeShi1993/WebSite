@@ -17,13 +17,29 @@ date_format = "Jan 2006"
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
+
+[[experience]]
+  title = "讲师"
+  company = "郑州大学"
+  company_url = "http://www.zzu.edu.cn"
+  location = "郑州"
+  date_start = "2021-08-09"
+  date_end = ""
+  description = """
+  研究兴趣:
+  * 射频等离子球化制备难熔金属球形粉末
+  * 射频等离子体流场模拟
+  * 具有复杂结构的碳纤维增强复合材料的分子动力学模拟
+  * 高熵合金的第一性原理计算
+  """
+
 [[experience]]
   title = "研究助理"
   company = "Phillpot教授实验室"
   company_url = ""
   location = "佛罗里达"
   date_start = "2018-01-01"
-  date_end = ""
+  date_end = "2021-05-18"
   description = """
   研究内容:
   
