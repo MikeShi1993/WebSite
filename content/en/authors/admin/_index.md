@@ -10,12 +10,12 @@ authors:
 superuser: true
 
 # Role/position
-role: Lecturer of Zhengzhou University
+role: Lecturer
 
 # Organizations/Affiliations
 organizations:
-- name: University of Florida
-  url: "http://www.ufl.edu"
+- name: Zhengzhou University
+  url: "http://www.zzu.edu.cn/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include non-equilibrium reactive molecular dynamics simulation and first principles computation.
