@@ -72,7 +72,7 @@ time_format = "3:04 PM"
 email = "sly1993@ufl.edu"
 phone = ""
 # address = "100 Rhines Hall Room 252, University of Florida, Florida, 32611, USA"
-address = {street = "100 Rhines Hall Room 252", city = "University of Florida", region = "FL", postcode = "32603", country = "United States", country_code = "US"}
+address = {street = "No.100 Science Avenue", city = "Zhengzhou University", region = "Henan", postcode = "450001", country = "China", country_code = "CN"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
