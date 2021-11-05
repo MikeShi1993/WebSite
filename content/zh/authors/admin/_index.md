@@ -10,12 +10,12 @@ authors:
 superuser: true
 
 # Role/position
-role: 郑州大学讲师
+role: 讲师
 
 # Organizations/Affiliations
 organizations:
-- name: 佛罗里达大学
-  url: "http://www.ufl.edu"
+- name: 郑州大学
+  url: "http://www.zzu.edu.cn/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include non-equilibrium reactive molecular dynamics simulation and first principles computation.
