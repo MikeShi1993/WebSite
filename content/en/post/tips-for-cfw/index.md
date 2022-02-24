@@ -38,7 +38,7 @@ In order to force chinese version OneDrive connecting through domestic ip, you n
 
 ``` yaml
 parsers: # array
-  - url: https://api.immtel.co/Subscription/Clash?sid=1329&token=vGxuZs4HAG0
+  - url:
     yaml:
       prepend-rules:
         - DOMAIN-SUFFIX,partner.microsoftonline.cn,China-Websites
