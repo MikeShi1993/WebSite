@@ -38,11 +38,17 @@ In order to force chinese version OneDrive connecting through domestic ip, you n
 
 ``` yaml
 parsers: # array
-  - url:
+  - url: YAML_Profile
     yaml:
       prepend-rules:
-        - DOMAIN-SUFFIX,partner.microsoftonline.cn,China-Websites
-        - DOMAIN,microsoftgraph.chinacloudapi.cn,China-Websites
+        - DOMAIN-SUFFIX,partner.microsoftonline.cn,China-Websites # rules最前面增加一个规则
+        - DOMAIN,microsoftgraph.chinacloudapi.cn,China-Websites # rules最前面增加一个规则
+    code: |
+      module.exports.parse = async (raw, { axios, yaml, notify, console }, { name, url, interval, selected }) => {
+      const obj = yaml.parse(raw)
+      obj.hosts['Domain_Name'] = 'Intranet_IP'
+      return yaml.stringify(obj)
+      }
 ```
 
 ### Solve internet connection error for Microsoft apps
